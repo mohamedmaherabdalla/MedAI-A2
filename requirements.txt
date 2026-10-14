@@ -1,0 +1,25 @@
+# PyTorch with CUDA 12.8 (needed for RTX 50-series GPUs). Install it first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+# Then the rest:
+#   pip install -r requirements.txt
+
+# Data and NIfTI handling
+numpy
+pandas
+nibabel
+
+# Image processing (connected components, distance transforms for HD95)
+scipy
+scikit-image
+
+# Plots and progress bars
+matplotlib
+tqdm
+
+# Notebook
+jupyterlab
+ipykernel
+ipywidgets
+
+# Markdown tables for the report draft
+tabulate
